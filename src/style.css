@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(../resources/background.jpg);
+}
+.main-card,
+.weather-card,
+.wind-card{
+    background-color: darksalmon;
+    margin: 1rem;
+    border: solid 0px;
+    border-radius: 10px;
+}
+
+.main-card {
+
+}
+
+.weather-card {
+
+}
+
+.wind-card{
+
+}
