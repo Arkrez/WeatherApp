@@ -2,21 +2,40 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    color: white;
+    font-size: x-large;
 }
 body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 3fr 3fr 3fr;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
     background: url(../resources/background.jpg);
 }
 .main-card,
 .weather-card,
 .wind-card{
-    background-color: darksalmon;
+    background-color: rgba(0, 0, 0, 0.123);
     margin: 1rem;
     border: solid 0px;
     border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.685);
+    width: 80vw;
+    padding: 1rem;
+    text-shadow: 1px 1px rgb(0, 0, 0);
 }
-
+.control-center{
+    color: black;
+}
+.search-btn,
+.search-location{
+    color:black;
+}
 .main-card {
-
+    
 }
 
 .weather-card {
@@ -26,3 +45,24 @@ body{
 .wind-card{
 
 }
+
+.label-data{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.label-data>*{
+    
+}
+.format{
+    display: flex;
+}
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+

@@ -8,28 +8,116 @@
     <script src="https://unpkg.com/lodash@4.17.20"></script>
 </head>
 <body>
+    <h1>
+        World Wide Weather!
+    </h1>
+    <div class="contol-center">
+        <input type="text" class="search-location" placeholder="City, State, Country">
+        <button class="search-btn">Search!</button>
+    </div>
     
-    <input type="text" class="search-location" placeholder="City, State, Country">
-    <button class="search-btn">Search!</button>
-    <div class="name">Name</div>
+    <h1 class="name">Location</h1>
     <div class="weather-card">
-        <div class="weather">Weather</div>
-        <div class="description">Description</div>
+        <div class="inner-container">
+            <h1 class="weather-title">Weather</h1>
+            <div class="label-data">
+                <div>Weather</div>
+                <div class="weather"></div>
+            </div>
+            <div class="label-data">
+                <div>Description:</div>
+                <div class="description"></div>
+            </div>
+        </div>
+        
+        
+        
     </div>
     
 
     <div class="main-card">
-        <div class="temp">Main</div>
-        <div class="feels_like">Feels</div>
-        <div class="temp_min">Min</div>
-        <div class="temp_max">Max</div>
-        <div class="pressure">Pressure</div>
+        <div class="inner-container">
+            <h1 class="main-title">Temperature</h1>
+            <div class="label-data">
+                <div>Temp: </div>
+                <div class="format">
+                    <div class="temp"></div>
+                    <span>&#x2109;</span>
+                </div>
+                
+            </div>
+            <div class="label-data">
+                <div>Feels-Like</div>
+                
+                <div class="format">
+                    <div class="feels_like"></div>
+                    <span>&#x2109;</span>
+                </div>
+            </div>
+            <div class="label-data">
+                <div>Min Temp:</div>
+                
+                <div class="format">
+                    <div class="temp_min"></div>
+                    <span>&#x2109;</span>
+                </div>
+            </div>
+            <div class="label-data">
+                <div>Max Temp:</div>
+                
+                <div class="format">
+                    <div class="temp_max"></div>
+                    <span>&#x2109;</span>
+                </div>
+            </div>
+            <div class="label-data">
+                <div>Pressure:</div>
+                <div class="format">
+                    <div class="pressure"></div>
+                    <span>mb</span>
+                </div>
+               
+            </div>
+            <div class="label-data">
+                <div>Humidity:</div>
+                <div class="format">
+                    <div class="humidity"></div>
+                    <span>%</span>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        
+       
+        
     </div>
     
 
     <div class="wind-card">
-        <div class="speed">Speed</div>
-        <div class="degree">Degrees</div>
+        <div class="inner-container">
+            <h1 class="wind-title">Wind</h1>
+            <div class="label-data">
+                <div>Wind Speed:</div>
+                <div class="format">
+                    <div class="speed"></div>
+                    <span>MPH</span>
+                </div>
+                
+            </div>
+            <div class="label-data">
+                <div>Degrees:</div>
+                <div class="format">
+                    <div class="degree"></div>
+                    <span>&#176;</span>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        
     </div>
     
     
